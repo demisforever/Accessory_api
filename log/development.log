@@ -146,3 +146,23 @@ Processing by AccessoriesController#index as JSON
   [1m[36mAccessory Load (0.3ms)[0m  [1mSELECT "accessories".* FROM "accessories" [0m
   Rendered accessories/index.rabl (2.7ms)
 Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 0.3ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/accessories.json" for 127.0.0.1 at 2013-06-19 20:23:55 -0300
+Processing by AccessoriesController#index as JSON
+  [1m[36mAccessory Load (0.1ms)[0m  [1mSELECT "accessories".* FROM "accessories" [0m
+  Rendered accessories/index.rabl (6.3ms)
+Completed 200 OK in 111ms (Views: 46.8ms | ActiveRecord: 2.5ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/accessories.json" for 127.0.0.1 at 2013-06-23 17:58:59 -0300
+Processing by AccessoriesController#index as JSON
+  [1m[36mAccessory Load (0.2ms)[0m  [1mSELECT "accessories".* FROM "accessories" [0m
+  Rendered accessories/index.rabl (5.4ms)
+Completed 200 OK in 134ms (Views: 44.5ms | ActiveRecord: 3.2ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
